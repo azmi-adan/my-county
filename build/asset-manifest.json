@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-county/static/css/main.94f1c548.css",
+    "main.js": "/my-county/static/js/main.1681b1ff.js",
+    "static/js/453.993d90c1.chunk.js": "/my-county/static/js/453.993d90c1.chunk.js",
+    "index.html": "/my-county/index.html",
+    "main.94f1c548.css.map": "/my-county/static/css/main.94f1c548.css.map",
+    "main.1681b1ff.js.map": "/my-county/static/js/main.1681b1ff.js.map",
+    "453.993d90c1.chunk.js.map": "/my-county/static/js/453.993d90c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94f1c548.css",
+    "static/js/main.1681b1ff.js"
+  ]
+}
