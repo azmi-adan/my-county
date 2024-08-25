@@ -1,0 +1,162 @@
+{
+    "county": {
+      "name": "Garissa",
+      "description": "Garissa County is located in the northeastern part of Kenya, known for its arid and semi-arid climate. The county is a cultural hub with a rich history and is home to a diverse community. Despite facing numerous challenges, Garissa has significant potential for development.",
+      "population": 841353,
+      "area": "45,720 km²",
+      "governor": "Ali Bunow Korane",
+      "features": [
+        {
+          "id": 1,
+          "name": "Tana River",
+          "description": "The Tana River is the longest river in Kenya, and it flows through Garissa, providing water for irrigation and supporting local wildlife."
+        },
+        {
+          "id": 2,
+          "name": "Boni Forest",
+          "description": "Boni Forest is a protected area that is part of the larger Lamu-Boni-Dodori forest ecosystem. It is home to various wildlife species, including elephants and buffaloes."
+        },
+        {
+            "id":3,
+            "name":"cultural hub",
+            "description":"A hub for cultural exhibitions and community events."
+        },
+        {
+          "id": 4,
+          "name": "Garissa University",
+          "description": "Garissa University is the only public university in the county, providing higher education opportunities for the local community and beyond."
+        },
+        {
+"id":5,
+"name":"Almond Hotel",
+"description":"The Almond Hotel in Garissa offers a comfortable and modern accommodation experience. Known for its friendly service and clean, well-maintained rooms, the hotel provides amenities such as free Wi-Fi, a restaurant serving local and international cuisine, and conference facilities. Its central location makes it a convenient choice for travelers and business visitors looking for quality service in the region."
+
+        }
+        
+      ],
+      "facilities": [
+        {
+          "id": 1,
+          "name": "Garissa Referral Hospital",
+          "type": "Healthcare",
+          "description": "The main healthcare facility in Garissa County, providing medical services to the residents and the neighboring counties."
+        },
+        {
+          "id": 2,
+          "name": "Garissa Livestock Market",
+          "type": "Economic",
+          "description": "One of the largest livestock markets in Kenya, where traders from all over the region come to buy and sell livestock."
+        },
+        {
+          "id": 3,
+          "name": "Garissa Library",
+          "type": "Education",
+          "description": "A public library offering a range of educational resources, including books, research materials, and internet access."
+        }
+      ],
+      "challenges": [
+        {
+          "id": 1,
+          "name": "Water Scarcity",
+          "description": "Water scarcity in Garissa is a critical issue, exacerbated by both natural and human factors. The region experiences irregular rainfall and prolonged droughts, which lead to inconsistent water supply. This scarcity is compounded by overextraction of groundwater and the lack of sufficient water infrastructure, resulting in frequent shortages and unreliable access to clean water. Communities often face significant challenges in securing a steady water supply for drinking, agriculture, and sanitation, affecting their overall quality of life and economic stability."
+        },
+        {
+          "id": 2,
+          "name": "Insecurity",
+          "description": "Insecurity in Garissa is a significant issue, exacerbated by its proximity to conflict zones such as Somalia and regional tensions. Recent incidents include an increase in knife crimes, which have heightened fears and disrupted daily life. These crimes, often linked to gang activities or personal disputes, contribute to a general atmosphere of insecurity and violence. Additionally, the region faces threats from terrorism and cattle rustling, leading to violent clashes and significant losses of livestock, further exacerbating poverty and instability."
+        },
+        {
+          "id": 3,
+          "name": "Poor Infrastructure",
+          "description": "Garissa faces considerable challenges due to its poor infrastructure. The region struggles with inadequate roads, which complicate transportation and hamper economic development. Many roads are in disrepair or are unpaved, making travel difficult, especially during the rainy season. Public facilities such as schools and hospitals often lack proper maintenance and resources, impacting education and healthcare services. Additionally, there is insufficient infrastructure for utilities like electricity and water, which affects both daily living and business operations. The lack of reliable infrastructure limits opportunities for growth and development in the region."
+        },
+        {
+"id":4,
+"name":"Education Accessibility",
+"description":"Challenges in accessing quality education, particularly in rural areas, due to limited infrastructure and resources."
+        },
+        {
+            "id":5,
+            "name":" Youth Unemployment",
+            "description":"Garissa faces significant youth unemployment due to a limited number of job opportunities, particularly in formal sectors. Many young people are forced into informal work or migration in search of better prospects. The mismatch between available jobs and local skills exacerbates this issue, as there is often a lack of vocational training that aligns with the needs of the local job market."
+        },
+        {
+            "id":6,
+            "name":"Environmental Degradation",
+            "description":"Environmental degradation is a pressing issue in Garissa, driven by human activities that threaten local biodiversity and livelihoods. Deforestation for fuel and construction is causing soil erosion and loss of arable land. Additionally, overgrazing and prolonged droughts are contributing to desertification, which reduces the amount of productive land available for agriculture and grazing."
+        },
+        {
+            "id":7,
+            "name":"Climate Change Impact",
+            "description":"Climate change is having a profound impact on Garissa, with more frequent and extreme weather events affecting agriculture and water resources. Droughts are increasingly common, leading to severe water shortages and crop failures, while intense rainfall can result in flooding that destroys crops and infrastructure, compounding the difficulties faced by local communities."
+        }
+
+      ],
+      "developmentProjects": [
+        {
+          "id": 1,
+          "name": "Water Resource Management",
+          "description": "A project aimed at improving water availability through the construction of boreholes and water pans across the county.",
+          "status": "Ongoing"
+        },
+        {
+          "id": 2,
+          "name": "Garissa Solar Power Plant",
+          "description": "A solar power project to provide renewable energy to the county, reducing reliance on diesel generators and improving energy access.",
+          "status": "Completed"
+        },
+        {
+          "id": 3,
+          "name": "Garissa Roads Improvement",
+          "description": "A project focused on improving the road network within Garissa, making transportation easier and boosting trade.",
+          "status": "Planned"
+        }
+      ],
+      "gallery": [
+        {
+          "id": 1,
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgAENIzu4h1bkU0jPHtpx882jJS2rbc3dfAQ&s",
+          "description": "The scenic Tana River flowing through Garissa."
+        },
+        {
+          "id": 2,
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaK2VtoSNSbip2o9zC9D0iTurC68RpwF9MkA&s",
+          "description": "Wildlife in Boni Forest, Garissa."
+        },
+        {
+          "id": 3,
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhdTOEISL4tnnXdXOe4B_95qGZa0qZa6ZTFQ&s",
+          "description": "Garissa University main building."
+        },
+        {
+"id":4,
+"imageUrl":"https://images.hivisasa.com/1200/9LF5qMLzpQiLfIrKMKZ4noma.jpg",
+"description":" A luxurious hotel offering high-end accommodations and conference facilities."
+
+        },
+        {
+"id":5,
+"imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrgr5cubha7CJyB3BcmIKJ39TmkJjKq7i39w&s",
+"description":" A hub for cultural exhibitions and community events."
+        },
+        {
+         "id":6,
+         "imageUrl":"https://lh3.googleusercontent.com/p/AF1QipOxhdE8Wc8JPd-_BucuX-2QQl5aqJS7eQcDRQ6E=s1360-w1360-h1020",
+         "description":"Jamia Mosque is  historic and beautifully designed mosque serving the local community."
+
+        },
+{
+"id":7,
+"imageUrl":"https://lh3.googleusercontent.com/p/AF1QipPUr8-K-icXwp0frVUzAQh7KB2Bx5hWe2GILmi7=s1360-w1360-h1020",
+"description":" library with a diverse collection of books and learning resources."
+},
+{
+    "id":8,
+    "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVjXx2TKng5_wBcI_s0aSmuV0MyoyLKJaKlA&s",
+    "description":"Garissa Solar Power Plant is one of Africa's largest solar power plants, contributing significantly to renewable energy in the region."
+}
+
+      ]
+    }
+  }
+  

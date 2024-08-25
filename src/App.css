@@ -1,38 +1,209 @@
-.App {
-  text-align: center;
+/* Ensures the body takes the full height of the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  background-image: url('https://cdn.gencraft.com/prod/user/756f396e-d452-42c0-a210-7b00226c8bfd/a4b4fdcc-5097-4249-a8ea-52bfa1f8b32f/image/image0_0.jpg?Expires=1724602920&Signature=RgnOsNDsgk0BaRprMCIXwHflhdtCFa7sfv1cCtGAOgYM4SCUUKZmi3b8WoDV1mWNfzjWXzdiAgWdhoWsbrqYjIIVKAkR9gURAoeG-vEJTj2kErZltINCVZ1TUQIQSaAIaB2EquuwntyYcJHT6ZnvBIIRaiT0V5aTvBBCT1MHJCeqWSzyZBM9xDP9vz4QwPAqEMW308k5azA0aMxEOZk8JLmgCpldZjrQBkKN4DumrJ4Rq6~26G3wIiBlUN7gwoHfKmdlHvL7EncdCouNQXdAhpQItJks0CZoda9oJOwfv7Ov3eez~b6Pj0kLdakuXpKc2RVxC~bXqo3Aihqv6EAk8g__&Key-Pair-Id=K3RDDB1TZ8BHT8'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* Ensures the main content area takes up available space */
+.app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+  background-color: #28a745;
+  padding: 1rem;
+  transition: background-color 0.3s ease;
 }
 
-@keyframes App-logo-spin {
+.navbar a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #e9ecef; /* Light color on hover */
+  text-decoration: underline;
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.landing-page {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem;
+  border-radius: 8px;
+  animation: fadeIn 1s ease-out, colorfulAnimation 5s ease infinite;
+  transition: background-color 0.3s ease;
+}
+
+.landing-page h1 {
+  color: #28a745;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.landing-page section {
+  margin-top: 2rem;
+}
+
+.landing-page h2 {
+  color: #333;
+  font-size: 2rem;
+  border-bottom: 2px solid #28a745;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.landing-page h2:hover {
+  color: #28a745; /* Change color on hover */
+  border-color: #fff; /* Change border color on hover */
+}
+
+.landing-page p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.feature-list,
+.facility-details,
+.challenge-list,
+.gallery {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-list:hover,
+.facility-details:hover,
+.challenge-list:hover,
+.gallery:hover {
+  background-color: rgba(255, 255, 255, 1); /* Fully opaque on hover */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+.feature-list ul,
+.facility-details ul,
+.challenge-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.feature-list li,
+.facility-details li,
+.challenge-list li {
+  margin-bottom: 1.5rem;
+}
+
+.gallery {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem;
+  border-radius: 8px;
+}
+
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-item {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Animation for fading in */
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+/* Animation for colorful and lively background */
+@keyframes colorfulAnimation {
+  0% {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  50% {
+    background-color: rgba(255, 245, 245, 0.9);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+.footer {
+  background-color: #28a745; /* Matches the navbar color */
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+  position: relative; /* Change to relative for better alignment */
+}
+
+.footer-content {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.footer-content p:first-child {
+  font-weight: bold;
+}
+
+.footer-message {
+  font-style: italic;
+  font-size: 1.1rem;
+  animation: fadeIn 3s ease-in-out infinite alternate;
+}
+
+/* Keyframe animation for the footer message */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
